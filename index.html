@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anglais E2 · Trainer BTS SIO</title>
+<meta name="description" content="Trainer interactif pour l'épreuve E2 d'anglais du BTS SIO : méthode du compte rendu, écrits professionnels en anglais, grammaire, vocabulaire IT et cybersécurité, oral B2, ateliers auto-corrigés.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anglais E2 · Trainer BTS SIO">
+<meta property="og:description" content="Compte rendu en français, écrits professionnels en anglais, grammaire et oral B2. Cours, flashcards et ateliers pour l'épreuve E2.">
+<meta property="og:url" content="https://neroclaw.github.io/anglais-trainer/">
+<meta property="og:image" content="https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/school/default/24px.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f7f2e8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<div class="app">
+  <aside class="side" id="side" aria-label="Navigation des sections">
+    <div class="side__brand">
+      <p class="side__kicker">BTS SIO · ÉPREUVE E2</p>
+      <p class="side__title">Anglais</p>
+      <p class="side__sub">Écrit 2 h · oral 20 min · niveau B2</p>
+    </div>
+
+    <div class="side__meter" aria-hidden="true">
+      <div class="meter">
+        <div class="meter__fill" id="meterFill"></div>
+      </div>
+      <p class="side__meter-label"><span id="meterText">0 %</span> du parcours</p>
+    </div>
+
+    <nav class="side__nav" id="nav"></nav>
+
+    <div class="side__foot">
+      <a class="side__link" href="#/revision">Révision mixte</a>
+      <a class="side__link" href="#/carnet">Mes notes</a>
+      <button class="side__link side__link--btn" id="themeToggle" type="button">Thème sombre</button>
+    </div>
+  </aside>
+
+  <main class="main" id="main">
+    <header class="topbar">
+      <button class="iconbtn" id="menuBtn" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="side">
+        <span class="iconbtn__bars" aria-hidden="true"></span>
+      </button>
+
+      <div class="topbar__title" id="crumb">Méthode</div>
+
+      <div class="chrono" role="group" aria-label="Chronomètre d'examen">
+        <span class="chrono__time" id="chronoTime">2:00:00</span>
+        <button class="chrono__btn" id="chronoStart" type="button">Démarrer</button>
+        <button class="chrono__btn chrono__btn--ghost" id="chronoReset" type="button">RAZ</button>
+      </div>
+    </header>
+
+    <div class="view" id="view" tabindex="-1">
+      <header class="sechead">
+        <span class="sechead__num">E2 · ANGLAIS</span>
+        <h1>Trainer de révision — anglais BTS SIO</h1>
+        <p style="color: var(--ink-2)">Chargement des sections…</p>
+      </header>
+      <noscript>
+        <p>Ce trainer a besoin de JavaScript pour fonctionner. Autorise-le pour cet appareil, puis recharge la page.</p>
+      </noscript>
+    </div>
+
+    <footer class="foot">
+      <p>Format sourcé sur la circulaire nationale BTS SIO session 2026 (annexe IV) et l'arrêté du 08/07/2024. Progression stockée en local sur cet appareil.</p>
+    </footer>
+  </main>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
