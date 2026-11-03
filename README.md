@@ -1,5 +1,9 @@
 # Anglais E2 · Trainer BTS SIO
 
+**🔗 En ligne :** https://neroclaw.github.io/anglais-trainer/ · **📦 Code :** https://github.com/NeroClaw/anglais-trainer
+
+---
+
 Trainer de révision pour l'épreuve **E2 « Expression et communication en langue anglaise »** du BTS SIO.
 
 ## Sources
